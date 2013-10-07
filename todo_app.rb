@@ -1,7 +1,9 @@
+$LOAD_PATH.unshift(File.expand_path('.'))
+
 require 'sinatra'
 require 'sinatra/activerecord'
 
-$LOAD_PATH.unshift(File.expand_path('.'))
+require 'models/todo'
 
 
 # This loads environment variables from the .env file

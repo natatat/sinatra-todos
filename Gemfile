@@ -18,5 +18,7 @@ group :development, :test do
   gem 'dotenv'
   gem 'sqlite3'
   gem 'shotgun'
+  gem 'capybara'
+  gem 'rspec'
 end
 
