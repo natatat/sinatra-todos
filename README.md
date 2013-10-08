@@ -67,6 +67,7 @@ There are two features in this amazingly powerful todopplication:
 1. Run `shotgun` to run the app locally
 1. Run `rake db:create_migration NAME=name_of_migration` to create a migraton
 1. Run `rake db:migrate` to run the migrations
+1. Run `irb -r ./todo_app.rb` to get to a console
 
 ### Deploying the app
 1. `git push heroku` pushes the master branch to heroku
