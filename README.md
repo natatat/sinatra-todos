@@ -14,7 +14,7 @@
 Your mission, and you choose to accept it, is to get a very small todo list app
 deployed to Heroku.
 
-1. Fork this repository to your personal github account
+1. Fork this repository to one of your personal github account
 1. Make all the [features](#features) pass
 1. Push it to heroku
 1. Submit a pull request to this repository for your peers to review. Include a
