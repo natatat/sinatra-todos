@@ -5,13 +5,15 @@
     <input type="text" name="todo_name">
     <input type="submit" value="Create Todo">
   </label>
+</form>
 
+<form action="/complete" method="post">
   <p>
   <ol>
     <% @todos.each do |todo| %>
-      <li><%= todo.todo_name %></li>
+      <li><%= todo.name.capitalize %>
+      <input type="submit" value="Complete"></li>
     <% end %>
   </ol>
   </p>
-
 </form>
