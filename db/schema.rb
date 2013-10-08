@@ -13,6 +13,7 @@
 ActiveRecord::Schema.define(version: 20131008182208) do
 
   create_table "todos", force: true do |t|
+    t.string "todo_name"
   end
 
 end
