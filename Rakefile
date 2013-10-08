@@ -1,5 +1,4 @@
-$LOAD_PATH.unshift(File.expand_path('.'))
-require 'todo_app'
+require './todo_app'
 require 'sinatra/activerecord/rake'
 
 begin
