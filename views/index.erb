@@ -2,8 +2,16 @@
 
 <form action="/" method="post">
   <label>New Todo:
-    <input type="text">
+    <input type="text" name="todo_name">
     <input type="submit" value="Create Todo">
   </label>
+
+  <p>
+  <ol>
+    <% @todos.each do |todo| %>
+      <li><%= todo.todo_name %></li>
+    <% end %>
+  </ol>
+  </p>
 
 </form>

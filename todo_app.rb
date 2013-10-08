@@ -18,6 +18,6 @@ get '/' do
 end
 
 post '/' do
-  Todo.create(params["todo_name"])
+  Todo.create(:todo_name => params["todo_name"])
   redirect '/'
 end
