@@ -1,15 +1,33 @@
 # sinatra-todos
+1. [Instructions](#instructions)
+1. [Learning Objectives](#learning-objectives)
+1. [](#learning-objectives)
+
+## Instructions
 
 Your mission, and you choose to accept it, is to get a very small todo list app
-pushed to Heroku.
+deployed to Heroku.
 
+1. Fork this repository to your personal github account
+1. Make all the [features](#features) pass
+1. Push it to heroku
+1. Submit a pull request to this repository for your peers to review. Include a
+   link to your production app in the pull request.
+1. Do *NOT* merge these pull requests :).
+1. Review other peoples code. Do *NOT* merge their pull requests.
+1. Add more features if you have time
 
-Once you are done, submit a pull request to your cohorts copy of this
-repository so that others may review your code. Spend the rest of your time
-reviewing others code or adding new features.
+## Learning Objectives
+
+1. Deploying an Application to Heroku
+1. Using environment variables to configure your application
+1. Using feature tests to guide your development
 
 ## Features
-We have written specs for each of the features you are expected to write.
+There are two features in this amazingly powerful todopplication:
+
+1. Guest may create TODO
+1. Guest may complete TODO
 
 ### Guest may create TODO
 
@@ -18,9 +36,8 @@ We have written specs for each of the features you are expected to write.
 1. Run the tests with `rake`
 1. Make that test pass
 1. Commit
-1. Goto 2
-
-### Push to Heroku
+1. Repeat until all scenarios are passing
+1. Push to Heroku
 
 ### Guest may complete TODO
 
@@ -29,13 +46,12 @@ We have written specs for each of the features you are expected to write.
 1. Run the tests with `rake`
 1. Make that test pass
 1. Commit
-1. Goto 2
-
-### Push to Heroku
+1. Repeat until all scenarios are passing
+1. Push to Heroku
 
 ## Running the app:
 
-1. Run `rake` to run the tests
+1. Run `rake` or `rake spec` to run the tests
 1. Run `shotgun` to run the app locally
 1. Run `rake db:create_migration NAME=name_of_migration` to create a migraton
 1. Run `rake db:migrate` to run the migrations
@@ -46,5 +62,9 @@ We have written specs for each of the features you are expected to write.
 
 ## Helpful Resources
 1. [Heroku and Ruby](https://devcenter.heroku.com/articles/getting-started-with-ruby#prerequisites)
-2. [Heroku and Sinatra](https://devcenter.heroku.com/articles/rack#frameworks)
-3. [Heroku Config Variables](https://devcenter.heroku.com/articles/config-vars)
+1. [Heroku and Sinatra](https://devcenter.heroku.com/articles/rack#frameworks)
+1. [Heroku Config Variables](https://devcenter.heroku.com/articles/config-vars)
+1. [Creating a Table With Active Record Migrations](http://guides.rubyonrails.org/migrations.html#creating-a-table)
+1. [Interacting with Forms in Capybara](https://github.com/jnicklas/capybara#interacting-with-forms)
+1. [Clicking Links or Buttons with Capybara](https://github.com/jnicklas/capybara#clicking-links-and-buttons)
+1. [Creating and Handling Forms with Sinatra](http://net.tutsplus.com/tutorials/ruby/singing-with-sinatra-the-recall-app-2/)
